@@ -1,2 +1,2 @@
 # Dicoding-BMAAP
-Dicoding - Belajar Membuat Aplikasi Android untuk Pemula
+Submission 1 - Dicoding Belajar Membuat Aplikasi Android untuk Pemula
