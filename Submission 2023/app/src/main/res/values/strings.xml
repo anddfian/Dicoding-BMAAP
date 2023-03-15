@@ -1,0 +1,200 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyUniversity</string>
+    <string name="logo_myuniversity">Logo MyUniversity</string>
+    <string name="nama_perguruan_tinggi">Nama Perguruan Tinggi</string>
+    <string name="akreditasi_perguruan_tinggi">Akreditasi Perguruan Tinggi</string>
+    <string name="lokasi_perguruan_tinggi">Lokasi Perguruan Tinggi</string>
+    <string name="deskripsi_perguruan_tinggi">Deskripsi Perguruan Tinggi</string>
+    <string name="tentang">Tentang</string>
+    <string name="motto">Motto</string>
+    <string name="motto_perguruan_tinggi">Motto Perguruan Tinggi</string>
+    <string name="jenis">Jenis</string>
+    <string name="jenis_perguruan_tinggi">Jenis Perguruan Tinggi</string>
+    <string name="didirikan">Didirikan</string>
+    <string name="didirikan_perguruan_tinggi">Didirikan Perguruan Tinggi</string>
+    <string name="rektor">Rektor</string>
+    <string name="rektor_perguruan_tinggi">Rektor Perguruan Tinggi</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="kampus">Kampus</string>
+    <string name="kampus_perguruan_tinggi">Kampus Perguruan Tinggi</string>
+    <string name="warna">Warna</string>
+    <string name="warna_perguruan_tinggi">Warna Perguruan Tinggi</string>
+    <string-array name="university_name">
+        <item>Universitas Gadjah Mada</item>
+        <item>Institut Teknologi Bandung</item>
+        <item>Universitas Indonesia</item>
+        <item>Universitas Airlangga</item>
+        <item>Institut Pertanian Bogor</item>
+        <item>Institut Teknologi Sepuluh Nopember</item>
+        <item>Universitas Padjadjaran</item>
+        <item>Universitas Diponegoro</item>
+        <item>Universitas Brawijaya</item>
+        <item>Universitas Hasanuddin</item>
+    </string-array>
+    <string-array name="university_rector">
+        <item>Prof. dr. Ova Emilia, M.Med., Ed., Sp.OG(K)., Ph.D.</item>
+        <item>Prof. Ir. N. R. Reini Djuhraeni Wirahadikusumah, MSCE, Ph.D.</item>
+        <item>Prof. Ari Kuncoro, S.E., M.A., Ph.D.</item>
+        <item>Prof. Dr. Mohammad Nasih, S.E., M.T., Ak.</item>
+        <item>Prof. Dr. Arif Satria, SP, M.Si</item>
+        <item>Prof. Dr. Ir. Mochamad Ashari, M. Eng., IPU, A.Eng.</item>
+        <item>Prof. Dr. Rina Indiastuti, S.E., M.SIE.</item>
+        <item>Prof. Dr. Yos Johan Utama, S.H., M.Hum.</item>
+        <item>Prof. Dr. Unti Ludigdo, SE., M.Si, Ak.</item>
+        <item>Prof. Dr. Ir. Jamaluddin Jompa, M.Sc.</item>
+    </string-array>
+    <string-array name="university_rector_photo">
+        <item>https://i.imgur.com/afDfh3t.png</item>
+        <item tools:ignore="Typos">https://i.imgur.com/SigmE1T.png</item>
+        <item>https://i.imgur.com/wFBGU6h.png</item>
+        <item>https://i.imgur.com/S9zqMER.png</item>
+        <item>https://i.imgur.com/xLL8pZb.png</item>
+        <item>https://i.imgur.com/vU9Z4RC.png</item>
+        <item>https://i.imgur.com/cODf4jv.png</item>
+        <item>https://i.imgur.com/kaL3WAd.png</item>
+        <item>https://i.imgur.com/bTOmkch.png</item>
+        <item>https://i.imgur.com/bau92EO.png</item>
+    </string-array>
+    <string-array name="university_type">
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+        <item>Perguruan Tinggi Negeri Badan Hukum</item>
+    </string-array>
+    <string-array name="university_location">
+        <item>Sleman, D.I. Yogyakarta</item>
+        <item>Bandung, Jawa Barat</item>
+        <item>Depok, Jawa Barat</item>
+        <item>Surabaya, Jawa Timur</item>
+        <item>Bogor, Jawa Barat</item>
+        <item>Surabaya, Jawa Timur</item>
+        <item>Sumedang, Jawa Barat</item>
+        <item>Semarang, Jawa Tengah</item>
+        <item>Malang, Jawa Timur</item>
+        <item>Makassar, Sulawesi Selatan</item>
+    </string-array>
+    <string-array name="university_logo">
+        <item>https://i.imgur.com/worLxZs.png</item>
+        <item>https://i.imgur.com/Jtfexm2.png</item>
+        <item>https://i.imgur.com/Z2AZIiV.png</item>
+        <item>https://i.imgur.com/TaP3csx.png</item>
+        <item>https://i.imgur.com/nr4JBc9.png</item>
+        <item>https://i.imgur.com/EqaU3VW.png</item>
+        <item>https://i.imgur.com/OO9RtjB.png</item>
+        <item>https://i.imgur.com/kQQIn6G.png</item>
+        <item>https://i.imgur.com/Bw48uTB.png</item>
+        <item>https://i.imgur.com/sqmqq4y.png</item>
+    </string-array>
+    <string-array name="university_description">
+        <item>Universitas Gadjah Mada (UGM) adalah perguruan tinggi negeri di Daerah Istimewa Yogyakarta, Indonesia. Universitas Gadjah Mada merupakan perguruan tinggi pertama yang didirikan oleh Pemerintah Indonesia setelah Indonesia merdeka. UGM berdiri pada tanggal 19 Desember 1949 dengan mengukuhkan Peraturan Pemerintah Nomor 23 Tahun 1949 tentang Peraturan Tentang Penggabungan Perguruan Tinggi Menjadi Universiteit tanggal 16 Desember 1949.</item>
+        <item>Institut Teknologi Bandung (disingkat ITB, aksara Sunda: ᮄᮔ᮪ᮞ᮪ᮒᮤᮒᮥᮒ᮪ ᮒᮦᮊ᮪ᮔᮧᮜᮧᮌᮤ ᮘᮔ᮪ᮓᮥᮀ) adalah sebuah perguruan tinggi negeri yang berkedudukan di Kota Bandung. Nama ITB diresmikan pada tanggal 2 Maret 1959. Sejak tanggal 14 Oktober 2013 ITB menjadi Perguruan Tinggi Negeri Badan Hukum (PTN BH) yang memiliki otonomi pengelolaan dalam akademik dan nonakademik. ITB telah memiliki 27 program studi yang terakreditasi secara internasional (sebelas dari ABET, sebelas dari ASIIN).</item>
+        <item>Universitas Indonesia disingkat sebagai UI, adalah sebuah perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta Selatan, sementara kampus utama lainnya terdapat di Salemba, Jakarta Pusat. UI merupakan institusi pendidikan tinggi tertua di Indonesia. Beberapa perguruan tinggi negeri terkemuka di Indonesia seperti Institut Teknologi Bandung, Institut Pertanian Bogor, Universitas Airlangga, Universitas Hasanuddin, dan Universitas Negeri Jakarta pada awalnya merupakan bagian dari UI hingga kemudian memisahkan diri menjadi institusi tersendiri. UI juga merupakan salah satu dari tiga perguruan tinggi terbaik di Indonesia bersama dengan Universitas Gadjah Mada dan Institut Teknologi Bandung.</item>
+        <item>Universitas Airlangga (disingkat Unair atau UA; Jawa: ꦈꦤꦶꦮ꦳ꦼꦂꦱꦶꦠꦱ꧀​ꦄꦲꦶꦂꦭꦁꦒ) adalah sebuah perguruan tinggi negeri yang terletak di Surabaya, Jawa Timur. Universitas ini didirikan pada tanggal 10 November 1954 bertepatan dengan hari pahlawan yang ke-9. Berdasarkan peringkat dari QS World University Rangking 2021, Universitas Airlangga menduduki peringkat keempat sebagai perguruan tinggi terbaik di Indonesia.</item>
+        <item>Institut Pertanian Bogor (nama bahasa Inggris: IPB University, sebelumnya Bogor Agricultural University;[2][3] aksara Sunda: ᮄᮔ᮪ᮞ᮪ᮒᮤᮒᮥᮒ᮪ ᮕᮨᮁᮒᮔᮤᮃᮔ᮪ ᮘᮧᮌᮧᮁ) merupakah Perguruan Tinggi Negeri yang berlokasi di Bogor, Jawa Barat. IPB dulunya merupakan sebuah fakultas pertanian di Universitas Indonesia dan IPB diresmikan pada tahun 1963. Pada tanggal 7 November 2017 lalu Institut Pertanian Bogor (IPB) resmi mendapatkan status akreditasi dengan peringkat A (sangat baik) berdasarkan hasil rapat pleno Badan Akreditasi Nasional Perguruan Tinggi (BAN–PT). Berdasarkan hasil penilaian Business Innovation Center–Kementerian Riset, Teknologi dan Pendidikan Tinggi RI, IPB menjadi perguruan tinggi di Indonesia yang paling banyak melakukan inovasi dalam Inovasi Indonesia paling Porspektif (sebanyak 39,71 persen) selama sepuluh tahun berturut–turut (2008–2018). Hal tersebut terkait dengan keberhasilan IPB menghasilkan inovasi-inovasi dengan kualitas berskala nasional maupun internasional. Pada tahun 2020, IPB Berhasil mendapatkan peringkat 1 Kampus terbaik se-Indonesia menurut Kemdikbud.</item>
+        <item>Institut Teknologi Sepuluh Nopember (disingkat ITS) adalah perguruan tinggi negeri yang terletak di Surabaya, Jawa Timur. Pada awalnya, ITS didirikan oleh Yayasan Perguruan Tinggi Teknik (YPTT) yang diketuai oleh dr. Angka Nitisastro pada 10 November 1957.</item>
+        <item>Universitas Padjadjaran (disingkat Unpad, Aksara Sunda Baku: ᮅᮔᮤᮗᮨᮁᮞᮤᮒᮞ᮪ ᮕᮓ᮪ᮏᮓ᮪ᮏᮛᮔ᮪) adalah sebuah perguruan tinggi negeri di Jawa Barat, Indonesia. Kampus utama Unpad, terutama untuk Program Sarjana, berada di Jatinangor, Kabupaten Sumedang, Jawa Barat.</item>
+        <item>Universitas Diponegoro disingkat sebagai Undip (Jawa: ꦈꦤꦶꦮ꦳ꦼꦂꦱꦶꦠꦱ꧀​ꦢꦶꦥꦺꦴꦤꦒꦫ, translit. Universitas Diponagara) adalah sebuah perguruan tinggi negeri di Indonesia yang berlokasi di Semarang, Jawa Tengah, Indonesia. Saat ini Undip telah memiliki 11 Fakultas dan 2 Sekolah. Kampus utama Undip terletak di daerah Tembalang, dan kampus utama lainnya terletak di daerah Pleburan.</item>
+        <item>Universitas Brawijaya (UB) adalah perguruan tinggi negeri di Indonesia yang berdiri pada tahun 1963 di Kota Malang, Jawa Timur melalui Ketetapan Menteri Pendidikan dan Ilmu Pengetahuan No.1 tanggal 5 Januari 1963. Tanggal tersebut kemudian ditetapkan sebagai Dies Natalis UB. Nama Brawijaya diberikan khusus oleh Presiden Soekarno dengan harapan mampu gemilang seperti Raden Wijaya (Brawijaya I) selaku pendiri Kerajaan Majapahit sekaligus menjadi kampus kebanggaan bangsa Indonesia.</item>
+        <item>Universitas Hasanuddin, yang kemudian disingkat Unhas, merupakan sebuah perguruan tinggi negeri di kota Makassar, Provinsi Sulawesi Selatan, Indonesia, yang berdiri pada 10 September 1956. Perguruan tinggi ini semula merupakan pengembangan dari Fakultas Ekonomi Universitas Indonesia ketika Bung Hatta masih menjadi Wakil Presiden. Kampus Unhas semula dibangun di Baraya atau Kampus Barayya.</item>
+    </string-array>
+    <string-array name="university_accreditation">
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi A</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+        <item>Terakreditasi Unggul</item>
+    </string-array>
+    <string-array name="university_motto">
+        <item>Mengakar Kuat, Menjulang Tinggi</item>
+        <item>In Harmonia Progressio</item>
+        <item>Veritas, Probitas, Iustitia</item>
+        <item>Excellence with Morality</item>
+        <item>Inspiring Innovation with Integrity</item>
+        <item>ITS ADVANCING HUMANITY</item>
+        <item>Universitas Padjadjaran RESPECT</item>
+        <item>Wiyata Hangreksa Gapuraning Nagara</item>
+        <item>Building Up Noble Future</item>
+        <item>Unhasku Bersatu Unhasku Kuat</item>
+    </string-array>
+    <string-array name="university_established">
+        <item>19 Desember 1949</item>
+        <item>3 Juli 1920 sebagai TH te Bandoeng\n2 Maret 1959 diresmikan sebagai ITB</item>
+        <item>2 Januari 1849 (sebagai Dokter-Djawa School Batavia)\n2 Februari 1950 (sebagai Universiteit Indonesia)\n11 Juli 1955-sekarang (sebagai Universitas Indonesia)</item>
+        <item>10 November 1954</item>
+        <item>1 September 1963</item>
+        <item>10 November 1957 sebagai Perguruan Tinggi Teknik 10 Nopember Surabaya</item>
+        <item>11 September 1957</item>
+        <item>9 Januari 1957</item>
+        <item>5 Januari 1963</item>
+        <item>10 September 1956</item>
+    </string-array>
+    <string-array name="university_campus">
+        <item>Urban, 882 meter persegi (357 hektar)</item>
+        <item>Urban, 795.646 meter persegi</item>
+        <item>Urban, 3.000.000 ~ 3.200.000 meter persegi</item>
+        <item>Urban</item>
+        <item>IPB Darmaga\nIPB Baranangsiang Bogor\nIPB Gunung Gede Bogor\nIPB Cilibende Bogor\nIPB Taman Kencana Bogor</item>
+        <item>Sukolilo, Manyar, dan Cokroaminoto</item>
+        <item>Dipati Ukur Campus, Bandung\nJatinangor Campus, Sumedang</item>
+        <item>Urban, 2.009.862 meter persegi</item>
+        <item>Urban; Kota Malang\n(I Ketawanggede,\nII Dieng,\nIII Kediri\nIV Jakarta)</item>
+        <item>Urban</item>
+    </string-array>
+    <string-array name="university_color">
+        <item>Khaki Muda</item>
+        <item>Deep Cobalt Blue</item>
+        <item>Kuning</item>
+        <item>Kuning-Biru</item>
+        <item>Biru</item>
+        <item>Biru</item>
+        <item>Biru Tua</item>
+        <item>Biru Laut</item>
+        <item>Biru Dongker</item>
+        <item>Merah</item>
+    </string-array>
+    <string-array name="university_website">
+        <item>https://ugm.ac.id/</item>
+        <item>https://www.itb.ac.id/</item>
+        <item>https://www.ui.ac.id/</item>
+        <item>https://unair.ac.id/</item>
+        <item>https://ipb.ac.id/</item>
+        <item>https://www.its.ac.id/</item>
+        <item>https://www.unpad.ac.id/</item>
+        <item>https://www.undip.ac.id/</item>
+        <item>https://ub.ac.id/</item>
+        <item>https://www.unhas.ac.id/</item>
+    </string-array>
+    <string-array name="university_photo">
+        <item>https://i.imgur.com/3A2vyvm.png</item>
+        <item>https://i.imgur.com/9mqQseM.png</item>
+        <item>https://i.imgur.com/GYzzQl2.png</item>
+        <item>https://i.imgur.com/AURuDC1.png</item>
+        <item>https://i.imgur.com/PDoxljS.png</item>
+        <item>https://i.imgur.com/CUxDgPC.png</item>
+        <item>https://i.imgur.com/sOQS4i1.png</item>
+        <item>https://i.imgur.com/gHXhRGF.png</item>
+        <item>https://i.imgur.com/XKoEx5p.png</item>
+        <item>https://i.imgur.com/ImyGzrG.png</item>
+    </string-array>
+    <string name="about">About</string>
+    <string name="foto_tentang">Foto Tentang</string>
+    <string name="nama">Andi Alfian Bahtiar</string>
+    <string name="email" tools:ignore="Typos">andd.fian@gmail.com</string>
+    <string name="profile_image">https://i.imgur.com/64w8FGx.jpg</string>
+    <string name="share">Share</string>
+    <string name="website">Website</string>
+    <string name="website_perguruan_tinggi">Website Perguruan Tinggi</string>
+    <string name="foto_perguruan_tinggi">Foto Perguruan Tinggi</string>
+    <string name="logo_perguruan_tinggi">Logo Perguruan Tinggi</string>
+</resources>

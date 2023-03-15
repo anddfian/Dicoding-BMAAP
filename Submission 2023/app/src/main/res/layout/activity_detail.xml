@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fun_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/foto_perguruan_tinggi"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/foto_perguruan_tinggi"
+                android:scaleType="fitXY" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shammer_foto_perguruan_tinggi"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="#DDDDDD"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/logo_perguruan_tinggi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/logo_perguruan_tinggi"
+                android:scaleType="fitXY" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_logo_perguruan_tinggi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|center"
+                android:adjustViewBounds="true"
+                android:background="#DDDDDD"
+                android:scaleType="fitXY" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nama_perguruan_tinggi"
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/nama_perguruan_tinggi"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/akreditasi_perguruan_tinggi"
+            style="@style/TextContent"
+            android:layout_marginBottom="16dp"
+            android:text="@string/akreditasi_perguruan_tinggi"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deskripsi_perguruan_tinggi"
+            style="@style/TextContent"
+            android:layout_marginBottom="16dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/deskripsi_perguruan_tinggi" />
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginBottom="8dp"
+            android:text="@string/rektor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rl_rektor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/foto_rektor"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_foto_rektor"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:src="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_centerVertical="true"
+                    android:src="#DDDDDD" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <TextView
+                android:id="@+id/rektor_perguruan_tinggi"
+                style="@style/TextContent"
+                android:layout_alignParentTop="false"
+                android:text="@string/rektor_perguruan_tinggi"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/foto_rektor"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.513" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginBottom="8dp"
+            android:text="@string/tentang"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/motto" />
+
+                <TextView
+                    android:id="@+id/motto_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/motto_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/jenis" />
+
+                <TextView
+                    android:id="@+id/jenis_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/jenis_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/didirikan" />
+
+                <TextView
+                    android:id="@+id/didirikan_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/didirikan_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/lokasi" />
+
+                <TextView
+                    android:id="@+id/lokasi_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/lokasi_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/kampus" />
+
+                <TextView
+                    android:id="@+id/kampus_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/kampus_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/warna" />
+
+                <TextView
+                    android:id="@+id/warna_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/warna_perguruan_tinggi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/website" />
+
+                <TextView
+                    android:id="@+id/website_perguruan_tinggi"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/website_perguruan_tinggi" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

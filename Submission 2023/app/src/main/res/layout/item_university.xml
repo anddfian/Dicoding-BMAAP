@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="6dp"
+    android:background="@color/white"
+    card_view:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_item"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_item_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBaseline_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/img_item_logo"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@id/img_item_logo"
+            card_view:layout_constraintTop_toTopOf="@id/img_item_logo"
+            tools:text="@string/nama_perguruan_tinggi" />
+
+        <TextView
+            android:id="@+id/tv_item_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/img_item_logo"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:text="@string/jenis_perguruan_tinggi" />
+
+        <TextView
+            android:id="@+id/tv_item_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/img_item_logo"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_type"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_type"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_type"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:text="@string/lokasi_perguruan_tinggi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F000000"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/img_item_logo_shimmer"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#DDDDDD"
+                android:scaleType="centerCrop"
+                card_view:layout_constraintBaseline_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_item_name_shimmer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toEndOf="@id/img_item_logo_shimmer"
+                android:background="#DDDDDD"
+                android:textColor="#00000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toEndOf="@id/img_item_logo_shimmer"
+                card_view:layout_constraintTop_toTopOf="@id/img_item_logo_shimmer"
+                tools:text="@string/nama_perguruan_tinggi" />
+
+            <TextView
+                android:id="@+id/tv_item_type_shimmer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#DDDDDD"
+                android:ellipsize="end"
+                android:textColor="#00000000"
+                android:textSize="12sp"
+                card_view:layout_constraintBottom_toBottomOf="@+id/img_item_logo_shimmer"
+                card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name_shimmer"
+                card_view:layout_constraintStart_toStartOf="@+id/tv_item_name_shimmer"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name_shimmer"
+                card_view:layout_constraintVertical_bias="0.0"
+                tools:text="@string/jenis_perguruan_tinggi" />
+
+            <TextView
+                android:id="@+id/tv_item_location_shimmer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#DDDDDD"
+                android:ellipsize="end"
+                android:textColor="#00000000"
+                android:textSize="12sp"
+                card_view:layout_constraintBottom_toBottomOf="@+id/img_item_logo_shimmer"
+                card_view:layout_constraintEnd_toEndOf="@+id/tv_item_type_shimmer"
+                card_view:layout_constraintStart_toStartOf="@+id/tv_item_type_shimmer"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_item_type_shimmer"
+                card_view:layout_constraintVertical_bias="0.0"
+                tools:text="@string/lokasi_perguruan_tinggi" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.cardview.widget.CardView>
